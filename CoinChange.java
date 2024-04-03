@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class CoinChange {
     public static void main(String[] args) {
-        int n = 100;
+        int n = 110;
         int[] coins = {10, 20, 50};
         System.out.println(countWays(coins, n));
     }
@@ -17,7 +17,7 @@ public class CoinChange {
                 dp[i] += dp[i - coin];
             }
         }
-
+        System.out.println(Arrays.toString(dp));
         return dp[amount];
     }
 }

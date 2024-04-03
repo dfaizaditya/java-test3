@@ -51,7 +51,7 @@ public class AnagramDiff {
     public static void main(String[] args) {
         AnagramDiff instance = new AnagramDiff();
         String[] words1 = {"good"};
-        String[] words2 = {"dbsa"};
+        String[] words2 = {"dbso"};
         int[] differences = instance.numOfBits(words1, words2);
         display(differences);
     }
