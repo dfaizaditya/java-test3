@@ -24,8 +24,8 @@ public class CoinChange2 {
     }
     
     public static void main(String[] args) {
-        int n = 110;
-        int[] coins = {10, 20, 50};
+        int n = 100;
+        int[] coins = {10, 20, 30};
         List<List<Integer>> combinations = findCombinations(coins, n);
         System.out.println(combinations.size());
         for (List<Integer> combination : combinations) {

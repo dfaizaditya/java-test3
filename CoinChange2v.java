@@ -1,7 +1,7 @@
 public class CoinChange2v {
     public static void main(String[] args) {
-        int n = 5;
-        int k = 3; // Range of coins from 1 to k
+        int n = 842;
+        int k = 91; // Range of coins from 1 to k
         long numCombinations = countCombinations(n, k);
         System.out.println("Number of combinations: " + numCombinations);
     }
